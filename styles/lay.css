@@ -1,0 +1,60 @@
+/* CSS Document */
+
+body{background-color:#EEE; font-family:Calibri; font-size:small; color:#333;}
+
+/* MISC Style */
+a{outline:none; border:none; color:#930;}
+a:hover{color:#996; text-decoration:none;}
+fieldset{border:1px solid #DDD;}
+fieldset legend{font-weight:bold; color:#C36;}
+input[type="text"], input[type="file"], input[type="password"], textarea, select{border:1px solid #DDD; padding:3px;}
+input[type="submit"]{border:1px solid #999; padding:3px 20px; border-radius:5px; text-transform:uppercase;}
+input[type="submit"]:hover{border:1px solid #666; color:#666}
+.msg{margin:5px 0px; padding:10px; background-color:#CCF; color:#000; text-shadow:1px 0px 1px #FFF;}
+hr{border:1px solid #930;}
+td{padding:5px; vertical-align:top;}
+
+#all{width:850px; background-color:#FFF; border:2px solid #CCC; margin:auto; min-height:600px; border-radius:5px;}
+
+/* Header Style */
+#all #header{min-height:100px; border-bottom:1px solid #CCC;}
+#all #header #hd_rz{padding:10px;}
+
+/* Content Style */
+#all #sitecont{}
+#all #sitecont .hm_flash{text-align:center; background-color:#C33;}
+#all #sitecont #sc_rz{padding:10px;}
+#all #sitecont #sc_rz .topic{font-size:large; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; color:#930; text-transform:uppercase; margin-bottom:10px;}
+#all #sitecont #sc_rz .home{overflow:auto; margin-bottom:10px; padding-bottom:10px; border-bottom:1px solid #EEE;}
+#all #sitecont #sc_rz .home .home_right{float:right; width:300px;}
+#all #sitecont #sc_rz .home .home_left{margin-right:310px;}
+
+#all #sitecont #dash{overflow:auto; margin-bottom:25px; border-bottom:1px solid #EEE; padding-bottom:15px;}
+#all #sitecont #dash .dash_left{float:left; width:200px; border:1px solid #EEE; border-top:none; background-color:#EEE; border:1px solid #900; border-top:none;}
+#all #sitecont #dash .dash_right{margin-left:200px; border-top:1px solid #900;}
+/* Content Portal Menu Style */
+#all #sitecont #dash .dash_left .imenu{padding:5px; margin:5px;}
+#all #sitecont #dash .dash_left .imenu ul{display:block; overflow:auto; margin:0px; padding:0px;}
+#all #sitecont #dash .dash_left .imenu ul li{list-style:none; list-style-image:none; margin-bottom:5px;}
+#all #sitecont #dash .dash_left .imenu ul li a{display:block; padding:15px 7px; text-decoration:none; color:#000; text-transform:uppercase; text-shadow:1px 0px 1px #FFF; font-weight:bold;}
+#all #sitecont #dash .dash_left .imenu ul li a:hover{background-color:#DDD;}
+#idash ul li .idash,#iprof ul li .iprof,#iorder ul li .iorder,#iprod ul li .iprod,#icart ul li .icart,#imsg ul li .imsg
+{background-color:#CCC;}
+
+#all #sitecont #dash .dash_right .dr_rz{padding:15px;}
+.pdt_level{}
+.pdt_level .pl_hd{background-color:#DDD; color:#000; text-shadow:1px 0px 1px #FFF; padding:10px; text-transform:uppercase; margin:10px 0px;}
+.pdt_level ul{min-height:400px; margin:0px; padding:0px; border:1px solid #000; width:595px; background-color:#EEE;}
+.pdt_level ul li{list-style-type:none; list-style-image:none; float:left; min-height:400px; vertical-align:bottom;}
+.pdt_level ul li table{vertical-align:bottom; min-height:400px;}
+.pdt_level ul li table td{vertical-align:bottom; font-size:xx-small; font-weight:bold;}
+
+/* Bottom Brands Style */
+#b_brands{margin:5px 0px; padding:10px;}
+#b_brands a{outline:none; border:none;}
+#b_brands img{padding:2px; border:1px solid #EEE;}
+#b_brands img:hover{border:1px solid #CCC;}
+
+/* Footer Style */
+#footer{width:850px; margin:auto;}
+#footer #ft_rz{padding:15px;}
